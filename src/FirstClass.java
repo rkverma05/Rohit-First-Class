@@ -12,6 +12,6 @@ public class FirstClass {
 		driver.manage().window().maximize();
 
 		driver.get("https://www.google.com");
-		driver.findElement(By.name("q")).sendKeys("Hello Rohit");
+		driver.findElement(By.name("q")).sendKeys("Hello Rohit");;
 	}
 }
